@@ -31,7 +31,7 @@ app.on('ready', function(){
     });
 
     // Disable menu
-    // mainWindow.setMenu(null);
+    mainWindow.setMenu(null);
 });
 
 // Handle create window

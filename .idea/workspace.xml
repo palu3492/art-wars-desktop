@@ -3,11 +3,321 @@
   <component name="ChangeListManager">
     <list default="true" id="e98d4318-fe21-479b-bf13-c656a879e611" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/avatars/final/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/mac/icon.icns" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/mac/icon.icns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/png/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/png/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/win/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/win/icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gameWindow.html" beforeDir="false" afterPath="$PROJECT_DIR$/gameWindow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/drawing.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/drawing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/game.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loadBalancing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round (outline)/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details (outline)/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round without details/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Round/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square (outline)/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details (outline)/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square without details/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/buffalo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/chick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/chicken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/cow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/crocodile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/elephant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/goat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/gorilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/hippo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/monkey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/moose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/narwhal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/owl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/parrot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/penguin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/rabbit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/rhino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/sloth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/walrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/whale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/PNG/Square/zebra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1215441305125576364lemmling_Cartoon_giraffe.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12154413311479870315lemmling_Cartoon_gnu.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1215441410235483012lemmling_Cartoon_squirrel.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12154414931495521192lemmling_Cartoon_kangaroo.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12154415151126295659lemmling_Cartoon_owl.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12154415421767612404lemmling_Simple_cartoon_mouse.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12154416611241630675lemmling_Cartoon_penguin.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12161376021593473697lemmling_Cartoon_goat.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1216137669335864135lemmling_Cartoon_beaver.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12161376851595770453lemmling_Cartoon_elephant.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12161396401315330062lemmling_Cartoon_bear.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12161396651491232743lemmling_Cartoon_dog.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12161397191917421375lemmling_Cartoon_cat.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1216139760278927551lemmling_Cartoon_cow.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1216139922123941827lemmling_Cartoon_sheep.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12161399281891548596lemmling_Cartoon_elk.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1216306562167833124lemmling_Cartoon_ghost.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1237098529983464009StudioFibonacci_Cartoon_monkey.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1237098546824050827StudioFibonacci_Cartoon_zebra.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/12375620701544626982StudioFibonacci_Cartoon_hippo.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1245696568353635238bloodsong_Chicken-RoundCartoon.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/1245696592590661388bloodsong_Pig-RoundCartoon.svg.med.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/more avatars/RoundAnimals/References.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screenshot1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +334,8 @@
       <file leaf-file-name="gameWindow.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gameWindow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="221">
+              <caret line="13" column="60" lean-forward="true" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -36,7 +346,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -45,9 +355,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="drawing.js" pinned="false" current-in-tab="false">
@@ -77,10 +391,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/gameWindow.html" />
         <option value="$PROJECT_DIR$/js/game.js" />
         <option value="$PROJECT_DIR$/js/drawing.js" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/gameWindow.html" />
       </list>
     </option>
   </component>
@@ -122,11 +437,6 @@
               <item name="Drawing-App-Electron" type="b2602c69:ProjectViewProjectNode" />
               <item name="Drawing-App-Electron" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Drawing-App-Electron" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drawing-App-Electron" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -141,6 +451,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\Programming\Electron\Drawing App\Drawing-App-Electron\assets\icons\png" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,16 +479,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549200800442</updated>
-      <workItem from="1549200803268" duration="5412000" />
+      <workItem from="1549200803268" duration="6310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5412000" />
+    <option name="totallyTimeSpent" value="6310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -247,22 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameWindow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/drawing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -274,6 +572,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="134" column="21" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/screenshot1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/link.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameWindow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="60" lean-forward="true" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/mac/icon.icns">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logo4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/png/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icons/png/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>
