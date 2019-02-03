@@ -1,0 +1,25 @@
+{
+  "name": "drawing-app-electron",
+  "version": "1.0.0",
+  "description": "Drawing game desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palu3492/Drawing-App-Electron.git"
+  },
+  "author": "Alex Palumbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palu3492/Drawing-App-Electron/issues"
+  },
+  "homepage": "https://github.com/palu3492/Drawing-App-Electron#readme",
+  "dependencies": {
+    "electron": "^4.0.4"
+  },
+  "devDependencies": {
+    "electron-packager": "^13.0.1"
+  }
+}
