@@ -3,10 +3,11 @@ var oldPt = { x: 0, y: 0 };
 var oldMidPt = { x: 0, y: 0 };
 var color = "#ff0000";
 var width = 15;
-var yourTurn = false;
 var stage;
 var drawingCanvas;
 var cont;
+
+document.addEventListener('DOMContentLoaded', setupCanvas);
 
 function setupCanvas(){
     canvas = document.getElementById("drawing-canvas");
@@ -29,56 +30,26 @@ function setupCanvas(){
     stage.update();
 }
 
-// function resizeCanvas(){
-//     canvas.width = canvas.clientWidth;
-//     canvas.height = canvas.clientHeight;
-// }
 
 function handleMouseDown(event) {
-    if(yourTurn) {
-        if (!event.primary) {
-            return;
-        }
-        oldPt = new createjs.Point(stage.mouseX, stage.mouseY);
-        oldMidPt = oldPt.clone();
-        stage.addEventListener("stagemousemove", handleMouseMove);
-        photon.raiseEvent(1, [stage.mouseX, stage.mouseY]);
+    if (!event.primary) {
+        return;
     }
-}
-function foreignMouseDown(coords){
-    var mouseX = coords[0];
-    var mouseY = coords[1];
-    oldPt = new createjs.Point(mouseX, mouseY);
+    oldPt = new createjs.Point(stage.mouseX, stage.mouseY);
     oldMidPt = oldPt.clone();
+    stage.addEventListener("stagemousemove", handleMouseMove);
 }
 
 function handleMouseMove(event) {
-    if(yourTurn) {
-        if (!event.primary) {
-            return;
-        }
-        var midPt = new createjs.Point(oldPt.x + stage.mouseX >> 1, oldPt.y + stage.mouseY >> 1);
-
-        drawingCanvas.graphics.clear().setStrokeStyle(width, 'round', 'round').beginStroke(color).moveTo(midPt.x, midPt.y).curveTo(oldPt.x, oldPt.y, oldMidPt.x, oldMidPt.y);
-
-        oldPt.x = stage.mouseX;
-        oldPt.y = stage.mouseY;
-
-        oldMidPt.x = midPt.x;
-        oldMidPt.y = midPt.y;
-
-        stage.update();
-        photon.raiseEvent(2, [stage.mouseX, stage.mouseY]);
+    if (!event.primary) {
+        return;
     }
-}
+    var midPt = new createjs.Point(oldPt.x + stage.mouseX >> 1, oldPt.y + stage.mouseY >> 1);
 
-function foreignMouseMove(coords){
-    var mouseX = coords[0];
-    var mouseY = coords[1];
-    var midPt = new createjs.Point(oldPt.x + mouseX >> 1, oldPt.y + mouseY >> 1);
     drawingCanvas.graphics.clear().setStrokeStyle(width, 'round', 'round').beginStroke(color).moveTo(midPt.x, midPt.y).curveTo(oldPt.x, oldPt.y, oldMidPt.x, oldMidPt.y);
-    oldPt.x = mouseX;
-    oldPt.y = mouseY;
+
+    oldPt.x = stage.mouseX;
+    oldPt.y = stage.mouseY;
 
     oldMidPt.x = midPt.x;
     oldMidPt.y = midPt.y;
@@ -95,43 +66,37 @@ function handleMouseUp(event) {
 
 function changeWidth(size){
     width = size;
-    if(yourTurn) {
-        var cursor = "url(assets/cursors/cursor" + size.toString() + ".png) " + (size/2).toString() + " " + (size/2).toString() + ", auto";
-        document.getElementById('draw').style.cursor = cursor;
-        photon.raiseEvent(3, size);
-    }
+    var cursor = "url(assets/cursors/cursor" + size.toString() + ".png) " + (size/2).toString() + " " + (size/2).toString() + ", auto";
+    document.getElementById('drawing-canvas').style.cursor = cursor;
 }
 
 function changeColor(newColor){
     color = newColor;
-    if(yourTurn) {
-        document.getElementById('color-circle').style.background = color;
-        photon.raiseEvent(4, newColor);
-    }
+    document.getElementById('color-circle').style.background = color;
 }
 
 function clearCanvas(){
     drawingCanvas.graphics.beginStroke("white").beginFill('white').drawRect(0, 0, 2000, 2000);
     stage.update();
-    if(yourTurn) {
-        photon.raiseEvent(5, "");
-    }
 }
+
 function fillCanvas(){
     drawingCanvas.graphics.beginStroke(color).beginFill(color).drawRect(0, 0, 2000, 2000);
     stage.update();
-    if(yourTurn) {
-        photon.raiseEvent(6, "");
-    }
 }
 
-function setYourTurn(bool){
-    yourTurn = bool;
+function saveImage(){
+    var canvas = document.getElementById('draw');
+    var uri = canvas.toDataURL("image/png");
+    downloadURI(uri, 'artwars');
 }
 
-function newDrawing(){
-    clearCanvas();
-    color = "#ff0000";
-    document.getElementById('color-circle').style.background = color;
-    width = 15;
+function downloadURI(uri, name) {
+    var link = document.createElement("a");
+    link.download = name;
+    link.href = uri;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    delete link;
 }
