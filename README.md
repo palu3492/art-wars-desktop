@@ -1,5 +1,5 @@
 # Drawing-App-Electron
-Desktop drawing application.
+Cross platform desktop drawing application created with Electron.
 
 # Screenshots
 Create artwork to save and share.
