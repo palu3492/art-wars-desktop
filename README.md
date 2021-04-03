@@ -1,4 +1,4 @@
-# Drawing-App-Electron
+# Art Wars Desktop
 Cross platform desktop drawing application created with Electron.
 
 # Screenshots
