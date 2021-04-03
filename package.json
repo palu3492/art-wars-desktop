@@ -1,11 +1,11 @@
 {
-  "name": "drawing-app-electron",
+  "name": "art-wars",
   "version": "1.0.0",
   "description": "Drawing game desktop app",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+    "package-mac": "electron-builder --mac --x64",
     "package-win": "electron-packager . drawing-app-electron --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Drawing App\"",
     "package-linux": "electron-packager . drawing-app-electron --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/icon.png --prune=true --out=release-builds"
   },
@@ -20,10 +20,14 @@
   },
   "homepage": "https://github.com/palu3492/Drawing-App-Electron#readme",
   "dependencies": {
-    "electron": "^9.4.0",
     "package.json": "^2.0.1"
   },
   "devDependencies": {
-    "electron-packager": "^13.0.1"
+    "electron": "^9.4.0",
+    "electron-packager": "^13.0.1",
+    "electron-builder": "^22.10.5"
+  },
+  "build": {
+    "productName": "Art Wars"
   }
 }
