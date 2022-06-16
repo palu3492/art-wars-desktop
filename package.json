@@ -23,7 +23,7 @@
     "package.json": "^2.0.1"
   },
   "devDependencies": {
-    "electron": "^9.4.0",
+    "electron": "^15.5.5",
     "electron-packager": "^13.0.1",
     "electron-builder": "^22.10.5"
   },
